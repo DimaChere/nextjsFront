@@ -17,10 +17,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <div className="overflow-y-clip">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

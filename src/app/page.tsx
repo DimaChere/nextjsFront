@@ -13,7 +13,11 @@ import CArticle from "./components/blocks/CArticle";
 import DArticle from "./components/blocks/DArticle";
 import EArticle from "./components/blocks/EArticle";
 import FArticle from "./components/blocks/FArticle";
-import GQuestionForm from "./components/blocks/GQuestionForm";
+import GArticle from "./components/blocks/GArticle";
+import HArticle from "./components/blocks/HArticle";
+import QuestionForm from "./components/blocks/QuestionForm";
+import PreEnd from "./components/blocks/PreEnd";
+import DownloadLinksEnd from "./components/views/DownloadLinksEnd";
 // ICONS
 
 export default function Home() {
@@ -22,14 +26,17 @@ export default function Home() {
       <main className="flex min-h-screen flex-col w-full overflow-x-clip">
         <AStart />
         <DownloadLinks />
-        {/* <BContacts /> */}
-        {/* <CArticle /> */}
-        {/* <Cookies /> */}
-        {/* <DArticle /> */}
-        {/* <EArticle /> */}
-        {/* <FArticle /> */}
-        {/* <GQuestionForm /> */}
-        {/* <DownloadLinks /> */}
+        <BContacts />
+        <CArticle />
+        <Cookies />
+        <DArticle />
+        <EArticle />
+        <FArticle />
+        <GArticle />
+        <HArticle />
+        <PreEnd />
+        <QuestionForm />
+        <DownloadLinksEnd />
       </main>
     </>
   );

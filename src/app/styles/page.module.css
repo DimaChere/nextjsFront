@@ -1,7 +1,114 @@
 .headline {
   position: relative;
   font-size: 6vw;
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 1.25rem;
   z-index: 40;
+}
+.content {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  z-index: 40;
+}
+
+.downloadlinksFirst,
+.downloadlinksSecond {
+  font-weight: 700;
+}
+.downloadlinksFirst {
+  font-size: 24px;
+  line-height: 29px;
+}
+.downloadlinksSecond {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.input,
+.inputError,
+.textarea,
+.textareaError,
+.inputSmall,
+.inputSmallError {
+  box-sizing: border-box;
+  z-index: 20;
+  font-size: 16px;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 18px 0 17px 11px;
+}
+
+.input,
+.textarea,
+.inputSmall {
+  border: 2px solid #5c5c5c;
+}
+.inputError,
+.inputSmallError,
+.textareaError {
+  border: 2px solid#f00;
+}
+
+.textarea,
+.textareaError {
+  min-height: 140px;
+}
+
+@media (min-width: 640px) {
+  .headline {
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 600;
+    padding-bottom: 1.25rem;
+    z-index: 40;
+  }
+  .content {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    z-index: 40;
+  }
+
+  .downloadlinksFirst {
+    font-size: 35px;
+    line-height: 70px;
+  }
+
+  .input,
+  .inputError,
+  .textarea,
+  .textareaError,
+  .inputSmall,
+  .inputSmallError {
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+  }
+
+  .input,
+  .textarea,
+  .inputSmall {
+    border-width: 1px;
+  }
+
+  .input,
+  .inputError,
+  .inputSmall,
+  .inputSmallError {
+    padding: 29px 0 29px 23px;
+  }
+
+  .inputSmall,
+  .inputSmallError {
+    width: 389px;
+  }
+
+  .textarea,
+  .textareaError {
+    min-height: 200px;
+    padding: 26px 0 26px 23px;
+  }
 }

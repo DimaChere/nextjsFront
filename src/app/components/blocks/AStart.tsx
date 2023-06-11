@@ -6,7 +6,7 @@ import line from "../../../pictures/line.svg";
 
 export default function AStart() {
   return (
-    <div className="relative w-full flex items-center h-[450px]">
+    <div className="relative w-full flex items-center h-[450px] sm:mb-14">
       {/* Text */}
       <div className="z-20 ml-[7vw] w-[70%] sm:w-[60%]">
         <p className="font-bold text-[35px] leading-[40px] sm:text-[64px] sm:leading-[70px] mb-6 sm:mb-[88px]">
